@@ -1,0 +1,114 @@
+/* 共有样式 */
+.continue {
+  background: #57C3B9;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.game {
+  /* none */
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* 开场 - index.html */
+.game-start {
+  /* display: none; */
+  width: 1000px;
+  height: 718px;
+  background: url("../img/game_start.png") no-repeat top center;
+  position: relative;
+}
+.start-game {
+  display: inline-block;
+  width: 175px;
+  height: 50px;
+  border-radius: 15px;
+  position: absolute;
+  top: 466px;
+  left: 389px;
+}
+
+/* 序幕 */
+.prelude {
+  display: none;
+  width: 1000px;
+  height: 718px;
+  background: url("../img/game_frame.png") no-repeat top center;
+  padding-top: 250px;
+}
+.prelude p {
+  text-align: center;
+  line-height: 40px;
+}
+
+/* 第一幕：报名 */
+.act-one {
+  display: none;
+  width: 1000px;
+  height: 718px;
+  background: url("../img/game_frame.png") no-repeat top center;
+}
+.act-one-text {
+  display: none;
+  padding-top: 220px;
+}
+.act-one-text p {
+  text-align: center;
+  line-height: 40px;
+}
+.act-one-form {
+  display: none;
+  padding: 180px 180px 0;
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.user-name-valid-feedback,
+.user-password-valid-feedback,
+.user-personal-profile-valid-feedback,
+.user-phone-valid-feedback,
+.user-id-number-valid-feedback,
+.user-mailbox-valid-feedback {
+  display: none;
+}
+.form-submit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* 第二幕：结局 */
+.act-two {
+  display: none;
+  width: 1000px;
+  height: 718px;
+  background: url("../img/act_two.png") no-repeat top center;
+  position: relative;
+}
+.act-two-continue {
+  position: absolute;
+  width: 220px;
+  height: 130px;
+  right: 90px;
+  top: 335px;
+  cursor: pointer;
+}
+
+/* 谢幕 */
+.curtain-call {
+  display: none;
+  width: 1000px;
+  height: 718px;
+  background: url("../img/curtain_call.png") no-repeat top center;
+  position: relative;
+  padding: 150px 0px 0px 50px;
+  color: #fff;
+}
+.curtain-call-image {
+  margin: 100px auto;
+}
+.curtain-call-text p{
+  line-height: 40px;
+}
