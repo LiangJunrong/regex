@@ -4,11 +4,13 @@ $(function() {
    * 开始界面
    */
   // 点击开始
+  setTimeout(function() {
+    $(".audio")[0].play();
+  }, 50);
   $(".start-game").click(function() {
     $(".game-start").fadeOut("slow", function() {
       $(".prelude").fadeIn("slow");
     });
-    
   })
 
 
